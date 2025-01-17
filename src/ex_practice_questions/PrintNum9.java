@@ -1,4 +1,4 @@
-package examples;
+package ex_practice_questions;
 
 public class PrintNum9 {
     public static void main(String[] args) {
