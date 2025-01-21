@@ -17,5 +17,8 @@ public class Display_LetterGrade {
         System.out.println("Score = " +score);
        String Grade = ((score>=90)?"Grade A":(score>=80)?"Grade B":(score>=70)?"Grade C":(score>=60)?"Grade D":"Fail");
         System.out.println("Grade of Aishu is " +Grade);
+//          output
+//          Score = 75
+//          Grade of Aishu is Grade C
     }
 }
