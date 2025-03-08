@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Pyramidpattern {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the rows");
         int rows = sc.nextInt();

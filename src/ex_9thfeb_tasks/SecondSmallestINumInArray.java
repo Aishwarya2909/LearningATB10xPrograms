@@ -10,7 +10,6 @@ public class SecondSmallestINumInArray {
         int second_smallest = Integer.MAX_VALUE;
 //        System.out.println(smallest);
 //        System.out.println(second_smallest);
-
         for(int num : numbers)
         {
             if (num<smallest )

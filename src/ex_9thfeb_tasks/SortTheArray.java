@@ -15,11 +15,10 @@ public class SortTheArray {
 without using any functions.
 
 Hint - compare and replace(temp) */
-
         int[] numbers = {12, 34, 10, 1, 100, 3, 4, 32};
         int n = numbers.length-1;
-
-          for(int i=0;i<n;i++) {
+        for(int i=0;i<n;i++)
+        {
             for (int j = 0; j < n - i; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     int temp = numbers[j];
